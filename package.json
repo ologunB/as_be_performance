@@ -1,0 +1,21 @@
+{
+  "name": "api-load-tester",
+  "version": "1.0.0",
+  "description": "Load testing script for API performance analysis",
+  "main": "index.ts",
+  "scripts": {
+    "test:sequential": "ts-node index.ts sequential 10",
+    "test:parallel": "ts-node index.ts parallel 10",
+    "test:mixed": "ts-node index.ts mixed 10",
+    "test:heavy": "ts-node index.ts parallel 50"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
