@@ -15,6 +15,7 @@ This tool simulates real users interacting with your API to help you find perfor
 6. ✅ Update one of their posts
 
 At the end, you'll get a detailed report showing which operations are slow and where the bottlenecks are.
+```
 
 ## 🚀 Quick Start
 
