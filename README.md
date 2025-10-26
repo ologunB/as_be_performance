@@ -20,7 +20,6 @@ At the end, you'll get a detailed report showing which operations are slow and w
 
 ### Step 1: Install Dependencies
 
-
 ```bash
 npm install
 ```
